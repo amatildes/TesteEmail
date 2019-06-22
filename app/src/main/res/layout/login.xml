@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="19dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="19dp"
+    android:layout_marginBottom="19dp"
+    android:gravity="center"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="LOGIN"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/ediSenha"
+        android:layout_width="match_parent"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnLogar"
+        android:layout_width="match_parent"
+        android:text="LOGAR"
+        android:backgroundTint="#6BC407"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnNovo"
+        android:layout_width="match_parent"
+        android:text="Novo Usuario"
+        android:backgroundTint="#6BC407"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtResetSenha"
+        android:layout_width="match_parent"
+        android:text="Não lembro a senha"
+        android:textAlignment="center"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

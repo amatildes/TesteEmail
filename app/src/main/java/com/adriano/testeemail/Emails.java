@@ -1,0 +1,17 @@
+package com.adriano.testeemail;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+
+public class Emails extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_emails);
+
+
+    }
+}

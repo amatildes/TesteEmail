@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "303400226825",
+    "firebase_url": "https://teste-email-75bf4.firebaseio.com",
+    "project_id": "teste-email-75bf4",
+    "storage_bucket": "teste-email-75bf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303400226825:android:fddb47bb58fccddf",
+        "android_client_info": {
+          "package_name": "com.adriano.testeemail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303400226825-g5fk0v9748jo756195j6vjd4b6ujqtoh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adriano.testeemail",
+            "certificate_hash": "5d05cf2d451323a822d198e64706a3db92a555bc"
+          }
+        },
+        {
+          "client_id": "303400226825-8pjjuac63vtjk3hn8c617s8147062p34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC4MGhwLH6LukJHwQfiRI_YW1ncBrLa78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303400226825-8pjjuac63vtjk3hn8c617s8147062p34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
